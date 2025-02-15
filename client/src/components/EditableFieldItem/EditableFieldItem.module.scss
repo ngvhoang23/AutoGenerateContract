@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+}
+
+.lable {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.4rem;
+}
+
+.content {
+  width: 400px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 8px;
+  border-radius: 10px;
+  flex: 1;
+  transition: all 0.2s ease;
+  &:focus {
+    border: 1px solid #1e74fd;
+  }
+}

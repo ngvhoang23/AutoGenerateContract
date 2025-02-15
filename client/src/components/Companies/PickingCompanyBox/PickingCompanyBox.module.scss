@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px dashed #ccc;
+  width: fit-content;
+  padding: 0 16px 12px;
+  border-radius: 10px;
+  height: 200px;
+  width: 400px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.title {
+  font-weight: 600;
+  color: #c9c9ca;
+}
+
+.hide {
+  display: none;
+}

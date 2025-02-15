@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+  width: calc(100vw - 60px);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.companies-side {
+  height: 100%;
+  width: 50%;
+  border-right: 1px solid #ccc;
+}
+
+.contract-info {
+  width: 50%;
+  height: 100%;
+}

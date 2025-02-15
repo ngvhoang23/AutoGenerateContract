@@ -1,0 +1,72 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  height: 30px;
+  width: 30px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f0f2f5;
+  right: -14px;
+  top: -14px;
+  &:hover {
+    background-color: #f02849;
+    color: #fff;
+  }
+}
+
+.lable {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  top: -10px;
+  padding: 0 8px;
+  background-color: #fff;
+}
+
+.input-detail {
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 6px;
+  border-radius: 6px;
+  flex: 1;
+  transition: all 0.2s ease;
+  &:focus {
+    border: 1px solid #1e74fd;
+  }
+}
+
+.code-wrapper {
+  flex: 1;
+}
+
+.date-wrapper {
+  flex: 1;
+}
+
+.input-lable {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-right: 12px;
+}

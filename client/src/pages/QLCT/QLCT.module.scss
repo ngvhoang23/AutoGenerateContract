@@ -1,0 +1,121 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.actions {
+  width: 35%;
+}
+
+.container {
+  width: 65%;
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.company-item {
+  margin: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.actions {
+  border-right: 1px solid #ccc;
+  padding: 12px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.preview {
+  border-bottom: 1px solid #ccc;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.com-preview {
+  width: fit-content;
+  margin: 0 12px;
+  margin-bottom: 20px;
+}
+
+.manage-btns {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.manage-com-btn {
+  width: 100%;
+  margin: 8px;
+  background-color: #1e74fd;
+  border: 1px solid #ccc;
+  font-family: "Poppins";
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #05f;
+  }
+}
+
+.add-com-modal {
+  position: absolute;
+}
+
+.edit-btn {
+  color: #000;
+  background-color: #f0f2f5;
+  &:hover {
+    background-color: #e1e1e1;
+  }
+}
+
+.remove-btn {
+  background-color: #f02849;
+  &:hover {
+    background-color: #e82243;
+    color: #fff;
+  }
+}
+
+.input-bar {
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1 1;
+  transition: all 0.2s ease;
+  margin-bottom: 12px;
+  font-family: "Poppins";
+  &::placeholder {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Poppins";
+  }
+}

@@ -1,0 +1,56 @@
+@import "normalize.css";
+
+:root {
+  --backgroundColor: #000000;
+  --defaultColor: #fff;
+  --primaryColor: #ffbd39;
+}
+
+// Fonts emmbeded
+
+@font-face {
+  font-family: Poppins;
+  src: url("./../../assets/fonts/roboto-slab/RobotoSlab-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./../../assets/fonts/roboto-slab/RobotoSlab-Regular.ttf");
+
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./../../assets/fonts/roboto-slab/RobotoSlab-Light.ttf");
+
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("./../../assets/fonts/roboto-slab/RobotoSlab-Thin.ttf");
+  font-weight: 400;
+}
+
+* {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins";
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  color: var(--text-color);
+}
